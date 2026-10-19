@@ -1,0 +1,16 @@
+.color-cards {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.color-card {
+   
+    width: 150px;
+    height: 300px;
+    transition-duration: 0.5s;
+}
+.color-card:hover {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
